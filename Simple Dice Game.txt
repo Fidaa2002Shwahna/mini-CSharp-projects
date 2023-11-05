@@ -1,0 +1,62 @@
+using System;
+
+namespace Simple_Dice_Game
+{
+    internal class Program
+    {
+        static void Main(string[] args)
+        {
+            int PlayerNum, EnemyRandomNum;
+
+            int playerPoints = 0, enemyPoints = 0;
+
+            Random random = new Random();
+
+            for (int i = 0; i < 10; i++)
+            {
+                Console.WriteLine("Press any key to roll the dice.");
+                Console.ReadKey();
+                Console.WriteLine("Rolling the dice...");
+
+                // Generate a random number between 1 and 6 for the player's roll
+                PlayerNum = random.Next(1, 7);
+                Console.WriteLine("You rolled a " + PlayerNum);
+
+                // Generate a random number between 1 and 6 for the enemy's roll
+                EnemyRandomNum = random.Next(1, 7);
+                Console.WriteLine("Enemy AI rolled a " + EnemyRandomNum);
+
+                if (EnemyRandomNum > PlayerNum)
+                {
+                    enemyPoints++;
+                    Console.WriteLine("The enemy wins this round!");
+                }
+                else if (EnemyRandomNum < PlayerNum)
+                {
+                    playerPoints++;
+                    Console.WriteLine("You win this round!");
+                }
+                else
+                {
+                    Console.WriteLine("Draw!");
+                }
+                Console.WriteLine();
+            }
+
+            if (enemyPoints > playerPoints)
+            {
+                Console.WriteLine("You lose!");
+            }
+            else if (enemyPoints < playerPoints)
+            {
+                Console.WriteLine("You win!");
+            }
+            else
+            {
+                Console.WriteLine("It's a draw!");
+            }
+
+            Console.ReadKey();
+        }
+    }
+}

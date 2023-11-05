@@ -1,0 +1,60 @@
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+
+namespace Calculator
+{
+    internal class Program
+    {
+        static void Main(string[] args)
+        {
+            int num1, num2, answer;
+            char oparetion;
+            
+            Console.WriteLine(Hello , Welcome to the calculator program !);
+           
+            Console.WriteLine(Please enter your first number .);
+            num1 = Convert.ToInt32(Console.ReadLine());
+
+            Console.WriteLine(Please enter your second number .);
+            num2 = Convert.ToInt32(Console.ReadLine());
+
+          
+            Console.WriteLine(enter your oparetion You Would like to do ...);
+            oparetion =Convert.ToChar(Console.ReadLine());
+
+            switch (oparetion)
+            {
+                case '+'
+                    answer = num1 + num2;
+                    Console.WriteLine(answer);
+                    break;
+
+                case '-'
+                    answer = num1 - num2;
+                    Console.WriteLine(answer);
+                    break;
+
+                case ''
+                    answer = num1  num2;
+                    Console.WriteLine(answer);
+                    break;
+
+                case ''
+                    answer = num1  num2;
+                    Console.WriteLine(answer);
+                    break;
+
+                default
+                    Console.WriteLine(Error Input try again !);
+                    break;
+
+            }
+            Console.ReadKey();
+
+
+        }
+    }
+}

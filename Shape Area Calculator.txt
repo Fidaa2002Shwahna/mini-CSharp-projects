@@ -1,0 +1,41 @@
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+
+namespace Shape_Area_Calculator
+{
+    internal class Program
+    {
+        static void Main(string[] args)
+        {
+            Console.WriteLine("what shape would you like to find the area of ?please enter 'r' for rectangle and any key for circle");
+
+            char c = Convert.ToChar(Console.ReadLine());
+            double area;
+
+            if (c == 'r')
+            {
+                int w, h;
+                Console.WriteLine("enter the width of the rectangle");
+                w = Convert.ToInt32(Console.ReadLine());
+
+                Console.WriteLine("enter the height of the rectangle");
+                h = Convert.ToInt32(Console.ReadLine());
+
+                area = w * h;
+            }
+            else
+            {
+                int r;
+                Console.WriteLine("enter the raduis of the circle");
+                r = Convert.ToInt32(Console.ReadLine());
+
+                area = Math.Pow(r, 2) * Math.PI;
+            }
+
+            Console.WriteLine("the area is {0}",area);
+        }
+    }
+}

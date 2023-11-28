@@ -1,0 +1,20 @@
+C:\Users\Study\OneDrive\سطح المكتب\applicants information\applicants information\bin\Debug\applicants information.exe.config
+C:\Users\Study\OneDrive\سطح المكتب\applicants information\applicants information\bin\Debug\applicants information.exe
+C:\Users\Study\OneDrive\سطح المكتب\applicants information\applicants information\bin\Debug\applicants information.pdb
+C:\Users\Study\OneDrive\سطح المكتب\applicants information\applicants information\obj\Debug\applicants information.csproj.AssemblyReference.cache
+C:\Users\Study\OneDrive\سطح المكتب\applicants information\applicants information\obj\Debug\applicants_information.Form1.resources
+C:\Users\Study\OneDrive\سطح المكتب\applicants information\applicants information\obj\Debug\applicants_information.Properties.Resources.resources
+C:\Users\Study\OneDrive\سطح المكتب\applicants information\applicants information\obj\Debug\applicants information.csproj.GenerateResource.cache
+C:\Users\Study\OneDrive\سطح المكتب\applicants information\applicants information\obj\Debug\applicants information.csproj.CoreCompileInputs.cache
+C:\Users\Study\OneDrive\سطح المكتب\applicants information\applicants information\obj\Debug\applicants information.exe
+C:\Users\Study\OneDrive\سطح المكتب\applicants information\applicants information\obj\Debug\applicants information.pdb
+C:\Users\Study\OneDrive\سطح المكتب\سنة رابعة\C#\applicants information\applicants information\bin\Debug\applicants information.exe.config
+C:\Users\Study\OneDrive\سطح المكتب\سنة رابعة\C#\applicants information\applicants information\bin\Debug\applicants information.exe
+C:\Users\Study\OneDrive\سطح المكتب\سنة رابعة\C#\applicants information\applicants information\bin\Debug\applicants information.pdb
+C:\Users\Study\OneDrive\سطح المكتب\سنة رابعة\C#\applicants information\applicants information\obj\Debug\applicants information.csproj.AssemblyReference.cache
+C:\Users\Study\OneDrive\سطح المكتب\سنة رابعة\C#\applicants information\applicants information\obj\Debug\applicants_information.Form1.resources
+C:\Users\Study\OneDrive\سطح المكتب\سنة رابعة\C#\applicants information\applicants information\obj\Debug\applicants_information.Properties.Resources.resources
+C:\Users\Study\OneDrive\سطح المكتب\سنة رابعة\C#\applicants information\applicants information\obj\Debug\applicants information.csproj.GenerateResource.cache
+C:\Users\Study\OneDrive\سطح المكتب\سنة رابعة\C#\applicants information\applicants information\obj\Debug\applicants information.csproj.CoreCompileInputs.cache
+C:\Users\Study\OneDrive\سطح المكتب\سنة رابعة\C#\applicants information\applicants information\obj\Debug\applicants information.exe
+C:\Users\Study\OneDrive\سطح المكتب\سنة رابعة\C#\applicants information\applicants information\obj\Debug\applicants information.pdb
